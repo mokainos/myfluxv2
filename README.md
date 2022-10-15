@@ -172,6 +172,8 @@ flux create helmrelease podinfo \
 --values=podinfo-values.yaml
 ```
 
+
+
 Based on the above definition, Flux will upgrade the release automatically
 when a new version of podinfo is released. If the upgrade fails, Flux
 can [rollback](https://toolkit.fluxcd.io/components/helm/helmreleases/#configuring-failure-remediation)
